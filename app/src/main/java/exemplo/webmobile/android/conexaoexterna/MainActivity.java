@@ -39,10 +39,10 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void abreNovo(View view){
-        Intent intent = new Intent(this,NovoActivity.class);
-        startActivity(intent);
-    }
+//    public void abreNovo(View view){
+//        Intent intent = new Intent(this,NovoActivity.class);
+//        startActivity(intent);
+//    }
 
     public void abreLista(View view){
         Intent intent = new Intent(this,ListaActivity.class);
